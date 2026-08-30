@@ -1,0 +1,41 @@
+- Services:
+    - Portainer:
+        icon: portainer.png
+        href: http://<HOMELAB_HOST>:9000
+        description: Container management
+        ping: http://<HOMELAB_HOST>:9000
+    - OpenWebUI:
+        icon: si-openai
+        href: http://<HOMELAB_HOST>:3001
+        description: Local AI chat interface
+        ping: http://<HOMELAB_HOST>:3001
+    - Trade Journal:
+        icon: si-bitcoin
+        href: http://<HOMELAB_HOST>:8001
+        description: Self-hosted trading journal
+        ping: http://<HOMELAB_HOST>:8001
+    - Leverage Calculator:
+        icon: mdi-calculator
+        href: http://<HOMELAB_HOST>:5501
+        description: Trading risk calculator
+        ping: http://<HOMELAB_HOST>:5501
+    - SearXNG:
+        icon: searxng.png
+        href: http://<HOMELAB_HOST>:8080
+        description: Private metasearch service
+        ping: http://<HOMELAB_HOST>:8080
+    - Inflation Tracker:
+        icon: mdi-currency-usd
+        href: http://<HOMELAB_HOST>:5001
+        description: Inflation and asset dashboard
+        ping: http://<HOMELAB_HOST>:5001
+    - Netdata:
+        icon: netdata.png
+        href: http://<HOMELAB_HOST>:19999
+        description: Host and container monitoring
+        ping: http://<HOMELAB_HOST>:19999
+    - Format Converter:
+        icon: mdi-file-sync
+        href: http://<HOMELAB_HOST>:8085
+        description: Self-hosted file conversion
+        ping: http://<HOMELAB_HOST>:8085

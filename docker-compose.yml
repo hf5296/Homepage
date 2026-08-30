@@ -10,7 +10,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - HOMEPAGE_ALLOWED_HOSTS=*
+      - "HOMEPAGE_ALLOWED_HOSTS=${HOMEPAGE_ALLOWED_HOSTS:-localhost:3000,127.0.0.1:3000}"
     restart: unless-stopped
     depends_on:
       - netdata
