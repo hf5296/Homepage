@@ -1,0 +1,15 @@
+title: Pi Dashboard
+background:
+  image: https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=2560&q=80
+  blur: md
+  opacity: 30
+cardBlur: lg
+theme: dark
+color: zinc
+headerStyle: clean
+statusStyle: dot
+hideVersion: true
+layout:
+  Services:
+    style: row
+    columns: 3

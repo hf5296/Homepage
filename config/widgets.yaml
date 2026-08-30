@@ -1,0 +1,36 @@
+# Search bar at the top
+- search:
+    provider: google
+    target: _blank
+
+# System resources
+- resources:
+    label: System
+    cpu: true
+    memory: true
+    disk: /
+    uptime: true
+    expanded: true
+    refresh: 3000
+
+# Network traffic
+- resources:
+    label: Network
+    network: true
+    expanded: true
+    refresh: 3000
+
+# Date and time
+- datetime:
+    text_size: xl
+    format:
+      dateStyle: long
+      timeStyle: short
+
+# Weather (London coords - update for your location)
+- openmeteo:
+    label: Weather
+    latitude: 51.5074
+    longitude: -0.1278
+    units: metric
+    cache: 5
